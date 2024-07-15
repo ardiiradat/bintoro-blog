@@ -10,7 +10,7 @@
     <div class="container max-w-screen-xl mx-auto p-6 flex flex-wrap">
       <main class="w-full md:w-4/6 lg:w-4/6 p-4">
         <div v-if="articles.length === 0" class="text-center text-gray-600">
-          No articles available.
+          No articles available!
         </div>
         <div v-for="article in articles" :key="article.id" class="mb-16">
           <router-link
